@@ -29,7 +29,6 @@ jobs:
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip setuptools wheel
-          pip install tenacity==8.3.0
           pip install -U git+https://github.com/medialab/minet@92aa0096
 
       - name: Scrape bsky posts
